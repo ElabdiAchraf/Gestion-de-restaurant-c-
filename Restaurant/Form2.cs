@@ -100,5 +100,20 @@ namespace Restaurant
             uC_AddServer1.Visible = true;
             uC_AddServer1.BringToFront();
         }
+
+        private void uC_Welcome3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2GradientCircleButton1_Click_2(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

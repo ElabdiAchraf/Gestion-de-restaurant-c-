@@ -56,12 +56,67 @@ namespace Restaurant
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtUsername.Text == "yazid" && txtPassword.Text == "12345")
+           
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+            if (txtUsername.Text == "achraf" && txtPassword.Text == "123456789")
             {
                 Form2 ds = new Form2("Admin");
                 ds.Show();
                 this.Hide();
             }
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

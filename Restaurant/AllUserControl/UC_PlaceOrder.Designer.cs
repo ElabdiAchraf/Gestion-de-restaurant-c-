@@ -30,10 +30,9 @@ namespace Restaurant.AllUserControl
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.comboCategory = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -63,19 +62,15 @@ namespace Restaurant.AllUserControl
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.BorderRadius = 30;
-            this.guna2Elipse1.TargetControl = this;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(221)))));
-            this.label1.Location = new System.Drawing.Point(31, 14);
+            this.label1.Location = new System.Drawing.Point(41, 17);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 34);
+            this.label1.Size = new System.Drawing.Size(183, 42);
             this.label1.TabIndex = 0;
             this.label1.Text = "Place Order";
             // 
@@ -83,9 +78,10 @@ namespace Restaurant.AllUserControl
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(31, 56);
+            this.label2.Location = new System.Drawing.Point(41, 69);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 22);
+            this.label2.Size = new System.Drawing.Size(91, 27);
             this.label2.TabIndex = 1;
             this.label2.Text = "Category";
             // 
@@ -104,9 +100,10 @@ namespace Restaurant.AllUserControl
             "Salade",
             "Food",
             "Dessert"});
-            this.comboCategory.Location = new System.Drawing.Point(34, 81);
+            this.comboCategory.Location = new System.Drawing.Point(45, 100);
+            this.comboCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboCategory.Name = "comboCategory";
-            this.comboCategory.Size = new System.Drawing.Size(143, 36);
+            this.comboCategory.Size = new System.Drawing.Size(189, 36);
             this.comboCategory.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.comboCategory.TabIndex = 2;
             this.comboCategory.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -124,13 +121,13 @@ namespace Restaurant.AllUserControl
             this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txtSearch.ForeColor = System.Drawing.Color.Black;
             this.txtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearch.Location = new System.Drawing.Point(34, 125);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtSearch.Location = new System.Drawing.Point(45, 154);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
             this.txtSearch.PlaceholderText = "Search";
             this.txtSearch.SelectedText = "";
-            this.txtSearch.Size = new System.Drawing.Size(143, 36);
+            this.txtSearch.Size = new System.Drawing.Size(191, 44);
             this.txtSearch.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtSearch.TabIndex = 3;
             this.txtSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -140,10 +137,11 @@ namespace Restaurant.AllUserControl
             // 
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 18;
-            this.listBox1.Location = new System.Drawing.Point(34, 178);
+            this.listBox1.ItemHeight = 24;
+            this.listBox1.Location = new System.Drawing.Point(45, 219);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(143, 310);
+            this.listBox1.Size = new System.Drawing.Size(189, 364);
             this.listBox1.TabIndex = 4;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -151,9 +149,10 @@ namespace Restaurant.AllUserControl
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(269, 39);
+            this.label3.Location = new System.Drawing.Point(359, 48);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 22);
+            this.label3.Size = new System.Drawing.Size(112, 27);
             this.label3.TabIndex = 5;
             this.label3.Text = "Item Name";
             // 
@@ -161,9 +160,10 @@ namespace Restaurant.AllUserControl
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(531, 116);
+            this.label4.Location = new System.Drawing.Point(708, 143);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 22);
+            this.label4.Size = new System.Drawing.Size(59, 27);
             this.label4.TabIndex = 6;
             this.label4.Text = "Total";
             // 
@@ -171,9 +171,10 @@ namespace Restaurant.AllUserControl
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(269, 116);
+            this.label5.Location = new System.Drawing.Point(359, 143);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 22);
+            this.label5.Size = new System.Drawing.Size(92, 27);
             this.label5.TabIndex = 7;
             this.label5.Text = "Quantity";
             // 
@@ -181,9 +182,10 @@ namespace Restaurant.AllUserControl
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(522, 39);
+            this.label6.Location = new System.Drawing.Point(696, 48);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 22);
+            this.label6.Size = new System.Drawing.Size(56, 27);
             this.label6.TabIndex = 8;
             this.label6.Text = "Price";
             // 
@@ -199,13 +201,13 @@ namespace Restaurant.AllUserControl
             this.txtItername.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtItername.ForeColor = System.Drawing.Color.Black;
             this.txtItername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtItername.Location = new System.Drawing.Point(258, 64);
-            this.txtItername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtItername.Location = new System.Drawing.Point(344, 79);
+            this.txtItername.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtItername.Name = "txtItername";
             this.txtItername.PasswordChar = '\0';
             this.txtItername.PlaceholderText = "";
             this.txtItername.SelectedText = "";
-            this.txtItername.Size = new System.Drawing.Size(200, 36);
+            this.txtItername.Size = new System.Drawing.Size(267, 44);
             this.txtItername.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtItername.TabIndex = 9;
             // 
@@ -221,13 +223,13 @@ namespace Restaurant.AllUserControl
             this.txtPrice.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrice.ForeColor = System.Drawing.Color.Black;
             this.txtPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPrice.Location = new System.Drawing.Point(526, 64);
-            this.txtPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPrice.Location = new System.Drawing.Point(701, 79);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.PasswordChar = '\0';
             this.txtPrice.PlaceholderText = "";
             this.txtPrice.SelectedText = "";
-            this.txtPrice.Size = new System.Drawing.Size(200, 36);
+            this.txtPrice.Size = new System.Drawing.Size(267, 44);
             this.txtPrice.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtPrice.TabIndex = 10;
             // 
@@ -243,13 +245,13 @@ namespace Restaurant.AllUserControl
             this.txtTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotal.ForeColor = System.Drawing.Color.Black;
             this.txtTotal.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTotal.Location = new System.Drawing.Point(526, 142);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtTotal.Location = new System.Drawing.Point(701, 175);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.PasswordChar = '\0';
             this.txtTotal.PlaceholderText = "";
             this.txtTotal.SelectedText = "";
-            this.txtTotal.Size = new System.Drawing.Size(200, 36);
+            this.txtTotal.Size = new System.Drawing.Size(267, 44);
             this.txtTotal.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtTotal.TabIndex = 11;
             // 
@@ -259,9 +261,10 @@ namespace Restaurant.AllUserControl
             this.txtQauntityUpDown.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtQauntityUpDown.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQauntityUpDown.ForeColor = System.Drawing.Color.Black;
-            this.txtQauntityUpDown.Location = new System.Drawing.Point(258, 141);
+            this.txtQauntityUpDown.Location = new System.Drawing.Point(344, 174);
+            this.txtQauntityUpDown.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtQauntityUpDown.Name = "txtQauntityUpDown";
-            this.txtQauntityUpDown.Size = new System.Drawing.Size(200, 36);
+            this.txtQauntityUpDown.Size = new System.Drawing.Size(267, 44);
             this.txtQauntityUpDown.TabIndex = 12;
             this.txtQauntityUpDown.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(225)))));
             this.txtQauntityUpDown.ValueChanged += new System.EventHandler(this.txtQauntityUpDown_ValueChanged);
@@ -278,93 +281,102 @@ namespace Restaurant.AllUserControl
             this.btnAddtocard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(221)))));
             this.btnAddtocard.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddtocard.ForeColor = System.Drawing.Color.White;
-            this.btnAddtocard.Location = new System.Drawing.Point(535, 195);
+            this.btnAddtocard.Location = new System.Drawing.Point(713, 240);
+            this.btnAddtocard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddtocard.Name = "btnAddtocard";
-            this.btnAddtocard.Size = new System.Drawing.Size(159, 36);
+            this.btnAddtocard.Size = new System.Drawing.Size(212, 44);
             this.btnAddtocard.TabIndex = 13;
             this.btnAddtocard.Text = "Add To Cart";
             this.btnAddtocard.Click += new System.EventHandler(this.btnAddtocard_Click);
             // 
             // guna2DataGridView1
             // 
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.guna2DataGridView1.ColumnHeadersHeight = 21;
             this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
             this.Column4});
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(261, 247);
+            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(231)))), ((int)(((byte)(201)))));
+            this.guna2DataGridView1.Location = new System.Drawing.Point(348, 304);
+            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
+            this.guna2DataGridView1.RowHeadersWidth = 51;
             this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(468, 150);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(624, 185);
             this.guna2DataGridView1.TabIndex = 14;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Green;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(231)))), ((int)(((byte)(203)))));
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(231)))), ((int)(((byte)(201)))));
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(175)))), ((int)(((byte)(80)))));
             this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 21;
             this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
             this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(201)))), ((int)(((byte)(138)))));
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.guna2DataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellClick);
+            this.guna2DataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
             // 
             // Column1
             // 
             this.Column1.HeaderText = "Item Name";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Unit Price";
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             // 
             // Column3
             // 
             this.Column3.HeaderText = "Quantity";
+            this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             // 
             // Column4
             // 
             this.Column4.HeaderText = "Price";
+            this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
             // 
             // btnRemove
@@ -378,9 +390,10 @@ namespace Restaurant.AllUserControl
             this.btnRemove.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(221)))));
             this.btnRemove.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRemove.ForeColor = System.Drawing.Color.White;
-            this.btnRemove.Location = new System.Drawing.Point(210, 418);
+            this.btnRemove.Location = new System.Drawing.Point(280, 514);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(148, 39);
+            this.btnRemove.Size = new System.Drawing.Size(197, 48);
             this.btnRemove.TabIndex = 15;
             this.btnRemove.Text = "Remove";
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
@@ -396,9 +409,10 @@ namespace Restaurant.AllUserControl
             this.btnPrint.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(221)))));
             this.btnPrint.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrint.ForeColor = System.Drawing.Color.White;
-            this.btnPrint.Location = new System.Drawing.Point(600, 418);
+            this.btnPrint.Location = new System.Drawing.Point(800, 514);
+            this.btnPrint.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(148, 39);
+            this.btnPrint.Size = new System.Drawing.Size(197, 48);
             this.btnPrint.TabIndex = 16;
             this.btnPrint.Text = "Print";
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
@@ -407,19 +421,21 @@ namespace Restaurant.AllUserControl
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(437, 400);
+            this.label7.Location = new System.Drawing.Point(583, 492);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 22);
+            this.label7.Size = new System.Drawing.Size(127, 27);
             this.label7.TabIndex = 17;
             this.label7.Text = "Total of cmd";
             // 
             // labelTotalAmount
             // 
-            this.labelTotalAmount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(145)))), ((int)(((byte)(0)))));
+            this.labelTotalAmount.BackColor = System.Drawing.Color.Lime;
             this.labelTotalAmount.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTotalAmount.Location = new System.Drawing.Point(436, 422);
+            this.labelTotalAmount.Location = new System.Drawing.Point(581, 519);
+            this.labelTotalAmount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTotalAmount.Name = "labelTotalAmount";
-            this.labelTotalAmount.Size = new System.Drawing.Size(103, 44);
+            this.labelTotalAmount.Size = new System.Drawing.Size(137, 54);
             this.labelTotalAmount.TabIndex = 18;
             this.labelTotalAmount.Text = "00 DHS";
             this.labelTotalAmount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -429,9 +445,10 @@ namespace Restaurant.AllUserControl
             this.txtDateTime.AutoSize = true;
             this.txtDateTime.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDateTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(221)))));
-            this.txtDateTime.Location = new System.Drawing.Point(596, 14);
+            this.txtDateTime.Location = new System.Drawing.Point(795, 17);
+            this.txtDateTime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtDateTime.Name = "txtDateTime";
-            this.txtDateTime.Size = new System.Drawing.Size(80, 20);
+            this.txtDateTime.Size = new System.Drawing.Size(102, 26);
             this.txtDateTime.TabIndex = 19;
             this.txtDateTime.Text = "Date Time";
             // 
@@ -441,7 +458,7 @@ namespace Restaurant.AllUserControl
             // 
             // UC_PlaceOrder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.txtDateTime);
@@ -464,8 +481,9 @@ namespace Restaurant.AllUserControl
             this.Controls.Add(this.comboCategory);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "UC_PlaceOrder";
-            this.Size = new System.Drawing.Size(781, 514);
+            this.Size = new System.Drawing.Size(1041, 633);
             this.Load += new System.EventHandler(this.UC_PlaceOrder_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtQauntityUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
@@ -475,8 +493,6 @@ namespace Restaurant.AllUserControl
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private System.Windows.Forms.ListBox listBox1;
         private Guna.UI2.WinForms.Guna2TextBox txtSearch;
         private Guna.UI2.WinForms.Guna2ComboBox comboCategory;

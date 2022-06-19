@@ -14,7 +14,11 @@ namespace Restaurant
         protected SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source=LAPTOP-B6D8O0KI ; database=restaurant ; integrated security =True";
+            con.ConnectionString = @"server=127.0.0.1,1433;
+                                    database=restaurant;
+                                    User id=SA;
+                                    Password=password@achraf
+                                    ";
             return con;
         }
         public DataSet getData(String query)

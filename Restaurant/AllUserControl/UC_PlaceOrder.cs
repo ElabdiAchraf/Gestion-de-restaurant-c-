@@ -107,7 +107,7 @@ namespace Restaurant.AllUserControl
             printer.PorportionalColumns = true;
             printer.HeaderCellAlignment = StringAlignment.Near;
             printer.Footer= "Prix Totat: "+labelTotalAmount.Text;
-            printer.FooterSpacing=20;
+            printer.FooterSpacing=1;
             printer.PrintDataGridView(guna2DataGridView1);
             
 
@@ -128,6 +128,11 @@ namespace Restaurant.AllUserControl
             txtDateTime.Text= string.Format(DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss tt"));
         }
 
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
         private void btnAddtocard_Click(object sender, EventArgs e)
         {
             if (txtTotal.Text!= "0" && txtTotal.Text != "") {
@@ -139,6 +144,9 @@ namespace Restaurant.AllUserControl
 
                 total += int.Parse(txtTotal.Text);
                 labelTotalAmount.Text = "" + total + " DHS";
+
+                query = "insert into orders (name_item,quantity,priceTotale) values ('" + txtItername.Text + "','" + txtQauntityUpDown.Text + "'," + txtTotal.Text + ")";
+                fn.setData(query);
             }
             else
             {

@@ -152,6 +152,11 @@ namespace Restaurant.AllUserControl
             }
         }
 
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
         public void clearAll()
         {
             comboNumTable.SelectedIndex = -1;
